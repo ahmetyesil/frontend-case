@@ -1,0 +1,7 @@
+/.next
+/package-lock.json
+/node_modules/
+/.idea/
+/.vscode/
+/.swc/
+/yarn.lock
