@@ -49,6 +49,7 @@ export default function HomeView() {
                 const data:string[] = [...selected];
                 data.splice(index,1);
                 setSelected(data);
+                setCookie("categories",data);
             }
         }
     }
